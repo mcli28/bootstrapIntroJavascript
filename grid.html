@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Ejemplo con grids</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/grid.css">
+</head>
+<body>
+	<h4 class="visible-lg">Desktop Large(LG)</h4>
+	<h4 class="visible-md">Desktop Medium (MD)</h4>
+	<h4 class="visible-sm">Tablets (SM)</h4>
+	<h4 class="visible-xs">Phones (XS)</h4>
+	<div class="contenedor row">
+		<div class="col col-lg-3 col-sm-6">columna 1</div>
+		<div class="col col-lg-3 col-sm-6">columna 2</div>
+		<div class="col col-lg-3 col-sm-6">columna 3</div>
+		<div class="col col-lg-3 col-sm-6">columna 4</div>
+	</div>
+	<div class="contenedor row">
+		<div class="col col-xs-8">
+			esta columna siempre ocupa 12
+			<div class="row contenedor">
+				<div class="col col-sm-6">una columna</div>
+				<div class="col col-sm-6">una columna</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
